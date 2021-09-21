@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css?family=Rubik:300,700&display=swap&subset=cyrillic-ext");
+@font-face {
+   font-family: "ReformaGrotesk";
+   src: url("../fonts/ReformaGroteskMediumC.woff2") format("woff2"),
+      url("../fonts/ReformaGroteskMediumC.woff") format("woff");
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: "ReformaGrotesk";
+   src: url("../fonts/ReformaGroteskBoldC.woff2") format("woff2"),
+      url("../fonts/ReformaGroteskBoldC.woff") format("woff");
+   font-weight: bold;
+   font-style: normal;
+   font-display: swap;
+}
+
+*,
+*::before,
+*::after {
+   margin: 0;
+   padding: 0;
+   border: 0;
+}
+li {
+   list-style: none;
+}
+a,
+a:visited {
+   text-decoration: none;
+}
+a:hover {
+   text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   font-weight: inherit;
+   font-size: inherit;
+}
+img {
+   vertical-align: top;
+}
+html {
+   font-size: 16px;
+}
+body {
+   font-family: "rubik", sans-serif;
+   line-height: 1;
+}
+h1 {
+   font-family: "ReformaGrotesk", sans-serif;
+   font-weight: 700;
+   font-size: 80px;
+   text-align: center;
+   color: #ff7f50;
+   text-transform: uppercase;
+}
+.img {
+   text-align: center;
+}
+.header p {
+   font-family: "ReformaGrotesk", sans-serif;
+   font-weight: 500;
+   font-size: 25px;
+   text-align: left;
+   color: #6495ed;
+   line-height: 120%;
+   font-style: oblique;
+}
+.header .img {
+   text-align: center;
+}
+
+.coffee h2 {
+   font-family: "rubik", sans-serif;
+   font-weight: 700;
+   font-size: 20px;
+   text-align: center;
+   color: #acff2fbd;
+   text-decoration: underline;
+   text-transform: capitalize;
+}
+.coffee p {
+   font-family: "rubik", sans-serif;
+   font-weight: 300;
+   font-size: 16px;
+   text-align: left;
+   color: rgba(255, 0, 0, 0.63);
+   line-height: 150%;
+   text-shadow: 1px 2px 1px;
+   text-indent: 30px;
+}
+.turka h2 {
+   font-family: "ReformaGrotesk", sans-serif;
+   font-weight: 700;
+   font-size: 25px;
+
+   text-align: center;
+   color: #ff00ff;
+   text-shadow: 1px 2px 1px;
+   text-transform: uppercase;
+   word-spacing: 20px;
+   line-height: 150%;
+}
+.turka h3 {
+   font-family: "ReformaGrotesk", sans-serif;
+   font-weight: 700;
+   font-size: 20px;
+   text-align: center;
+   color: green;
+   text-transform: uppercase;
+   letter-spacing: 30px;
+   line-height: 150%;
+}
+.turka .textwater {
+   font-family: "ReformaGrotesk", sans-serif;
+   font-weight: 500;
+   font-size: 25px;
+   text-align: left;
+   color: #ffa500;
+   line-height: 120%;
+   text-indent: 30px;
+}
+.turka p {
+   font-family: "rubik", sans-serif;
+   font-weight: 300;
+   font-size: 28px;
+   text-align: justify;
+   color: #cd853f;
+   line-height: 120%;
+   word-spacing: 15px;
+   text-indent: 30px;
+}
+.footer h3 {
+   font-family: "rubik", sans-serif;
+   font-weight: 700;
+   font-size: 45px;
+   text-align: center;
+   color: royalblue;
+   text-transform: uppercase;
+   letter-spacing: 5px;
+   line-height: 150%;
+   word-spacing: 120px;
+   text-shadow: 6px 3px 4px rgb(0, 0, 0);
+}
+.footer ol {
+   font-family: "ReformaGrotesk", sans-serif;
+   font-weight: 500;
+   font-size: 25px;
+   text-align: justify;
+   color: #98fb98;
+   line-height: 200%;
+   text-indent: 30px;
+   text-decoration: underline;
+}
